@@ -1,0 +1,217 @@
+* Reset default styles */ 
+body, h1, h2, h3, p, ul, li { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+    background-color:  #ff0000;
+     background-image: url() ;
+
+} 
+ 
+/* Header styles */ 
+header { 
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+} 
+ 
+nav ul { 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+nav li { 
+    margin-right: 20px; 
+} 
+ 
+nav a { 
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+} 
+ 
+nav a:hover { 
+    color: #ffc107; 
+} 
+ 
+/* Hero section styles */ 
+.hero-section { 
+    background-image: url("https://i0.wp.com/stanzaliving.wpcomstaging.com/wp-content/uploads/2022/04/fc23e-library-in-jaipur.jpg?fit=1000%2C667&ssl=1"); 
+    background-size: cover; 
+    height: 400px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 20px; 
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+ 
+.hero-section h1 { 
+    font-size: 36px; 
+    margin-bottom: 20px; 
+    text-align: center; 
+} 
+ 
+.hero-section p { 
+    font-size: 18px; 
+    margin-bottom: 30px; 
+    text-align: center; 
+} 
+ 
+.cta-button { 
+    background-color: #ffc107; 
+    color: #333; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+} 
+ 
+.cta-button:hover { 
+    background-color: #ffca2c; 
+} 
+ 
+/* Blog section styles */ 
+.blog-section { 
+    padding: 40px 20px;
+    background-color: coral; 
+} 
+ 
+.blog-section h2 { 
+    font-size: 24px; 
+    margin-bottom: 20px; 
+} 
+ 
+.blog-container { 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.blog-card { 
+    background-color:beige; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 0 10px; 
+    padding: 20px; 
+    width: 300px; 
+    background-image: my litlink project/race.jpg.webp;
+} 
+ 
+.blog-card img { 
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+    background-color: darksalmon;
+} 
+ 
+.blog-card h3 { 
+    font-size: 18px; 
+    margin-bottom: 10px; 
+    background-color: beige;
+} 
+ 
+.blog-card p { 
+    font-size: 14px; 
+    margin-bottom: 20px; 
+    background-color: beige;
+} 
+ 
+.read-more { 
+    color: #ffc107; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+} 
+ 
+.read-more:hover { 
+    color: #ffca2c; 
+} 
+ 
+/* Book section styles */ 
+.book-section { 
+    background-color: beige; 
+    padding: 40px 20px; 
+} 
+ 
+.book-section h2 { 
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    background-color: beige;
+} 
+ 
+.book-container { 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.book-card { 
+    background-color: darkorange; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 0 10px; 
+    padding: 20px; 
+    width: 200px; 
+} 
+ 
+.book-card img { 
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+} 
+ 
+.book-card h3 { 
+    font-size: 16px; 
+    margin-bottom: 5px; 
+} 
+
+body {
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: beige;
+  }
+  .chatbox {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    color: beige;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: beige;
+  }
+  
+  #message-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  #send-button {
+    width: 100%;
+    padding: 5px;
+    color: #ff0000;
+  }
+  body {
+   background-color: darkkhaki;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+ 
