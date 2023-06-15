@@ -1,2 +1,3 @@
 # litlink
-library management website with connectivity
+library management website with connectivity with users.
+
